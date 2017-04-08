@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestCopy</string>
+    <string name="book_name">书名 :</string>
+    <string name="book_price">价钱 :</string>
+    <string name="book_author">作者 :</string>
+    <string name="save">保存</string>
+    <string name="read">读取</string>
+</resources>

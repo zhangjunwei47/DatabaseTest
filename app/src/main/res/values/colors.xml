@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white_3_transparent_color">#0AFFFFFF</color>
+    <color name="white_5_transparent_color">#0DFFFFFF</color>
+    <color name="white_10_transparent_color">#1AFFFFFF</color>
+    <color name="white_15_transparent_color">#26FFFFFF</color>
+    <color name="white_20_transparent_color">#33FFFFFF</color>
+    <color name="white_30_transparent_color">#4DFFFFFF</color>
+    <color name="white_40_transparent_color">#66FFFFFF</color>
+    <color name="white_50_transparent_color">#80FFFFFF</color>
+    <color name="white_60_transparent_color">#99FFFFFF</color>
+    <color name="white_70_transparent_color">#B3FFFFFF</color>
+    <color name="white_80_transparent_color">#CCFFFFFF</color>
+    <color name="white_85_transparent_color">#D9FFFFFF</color>
+    <color name="white_90_transparent_color">#E6FFFFFF</color>
+
+    <color name="black_3_transparent_color">#0A000000</color>
+    <color name="black_5_transparent_color">#0D000000</color>
+    <color name="black_10_transparent_color">#1A000000</color>
+    <color name="black_15_transparent_color">#26000000</color>
+    <color name="black_20_transparent_color">#33000000</color>
+    <color name="black_25_transparent_color">#40000000</color>
+    <color name="black_30_transparent_color">#4D000000</color>
+    <color name="black_40_transparent_color">#66000000</color>
+    <color name="black_50_transparent_color">#80000000</color>
+    <color name="black_60_transparent_color">#99000000</color>
+    <color name="black_70_transparent_color">#B3000000</color>
+    <color name="black_75_transparent_color">#BF000000</color>
+    <color name="black_80_transparent_color">#CC000000</color>
+    <color name="black_85_transparent_color">#D9000000</color>
+    <color name="black_90_transparent_color">#E6000000</color>
+    <color name="black_1b_94_transparent_color">#F01B1B1B</color>
+
+    <color name="gray_4a_color">#4A4A4A</color>
+    <color name="gray_6_color">#666666</color>
+    <color name="gray_8_color">#888888</color>
+    <color name="gray_9_color">#999999</color>
+    <color name="gray_92_color">#929292</color>
+    <color name="gray_87_color">#878787</color>
+    <color name="gray_97_color">#979797</color>
+    <color name="gray_c_color">#CCCCCC</color>
+    <color name="gray_d_color">#DDDDDD</color>
+    <color name="gray_c7_color">#C7C7C7</color>
+    <color name="gray_f0_color">#F0F0F0</color>
+    <color name="gray_f1_color">#F1F1F1</color>
+    <color name="gray_f2_color">#F2F2F2</color>
+    <color name="gray_f4_color">#F4F4F4</color>
+    <color name="gray_f5_color">#F5F5F5</color>
+    <color name="gray_f9_color">#F9F9F9</color>
+    <color name="gray_f8_color">#F8F8F8</color>
+    <color name="gray_f7_color">#F7F7F7</color>
+    <color name="gray_f6_color">#F6F6F6</color>
+    <color name="gray_ea_color">#EAEAEA</color>
+    <color name="gray_ed_color">#EDEDED</color>
+    <color name="gray_7f_color">#7F7F7F</color>
+    <color name="gray_df_color">#DFDFDF</color>
+    <color name="gray_ec_color">#ECF0F1</color>
+    <color name="gray_10_color">#33101010</color>
+    <color name="golden_color">#FBAB5E</color>
+    <color name="white_fc_color">#FCFCFC</color>
+    <color name="white_ef_color">#EFEFEF</color>
+    <color name="white_fe_color">#FEFEFE</color>
+    <color name="blue_54_color">#5493E6</color>
+
+</resources>
