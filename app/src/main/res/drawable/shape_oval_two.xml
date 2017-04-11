@@ -1,0 +1,17 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!--边距-->
+    <padding
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp" />
+    <size
+        android:width="40dp"
+        android:height="40dp" />
+
+    <gradient
+        android:endColor="@color/black_25_transparent_color"
+        android:startColor="@color/white_30_transparent_color"
+        ></gradient>
+</shape>

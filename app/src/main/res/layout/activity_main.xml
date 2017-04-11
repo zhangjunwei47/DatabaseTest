@@ -24,6 +24,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="@drawable/shape_rectangle_three"
+                android:gravity="center"
                 android:text="@string/book_name"
                 android:textColor="@color/black_75_transparent_color" />
 
@@ -31,7 +33,8 @@
                 android:id="@+id/nameEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="3" />
+                android:layout_weight="3"
+                android:gravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -44,6 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/book_price"
                 android:textColor="@color/black_75_transparent_color" />
 
@@ -51,7 +55,8 @@
                 android:id="@+id/priceEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="3" />
+                android:layout_weight="3"
+                android:gravity="center" />
         </LinearLayout>
 
         <LinearLayout
@@ -64,6 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/book_author"
                 android:textColor="@color/black_75_transparent_color" />
 
@@ -71,7 +77,8 @@
                 android:id="@+id/authorEdit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="3" />
+                android:layout_weight="3"
+                android:gravity="center" />
         </LinearLayout>
 
         <Button
@@ -80,10 +87,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/author_layout"
             android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_rectangle_one"
             android:text="@string/save" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/readx"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/save">
@@ -153,7 +162,22 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/author_layout1"
             android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_rectangle_two"
             android:text="@string/read" />
     </RelativeLayout>
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/readx"
+        android:background="@drawable/shape_ring_onex"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/readx"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/shape_ring_two"/>
 </RelativeLayout>

@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
 
+    <color name="transparent_color">#00000000</color>
     <color name="white_3_transparent_color">#0AFFFFFF</color>
     <color name="white_5_transparent_color">#0DFFFFFF</color>
     <color name="white_10_transparent_color">#1AFFFFFF</color>
