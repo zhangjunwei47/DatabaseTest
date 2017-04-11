@@ -87,7 +87,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/author_layout"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/shape_rectangle_one"
             android:text="@string/save" />
     </RelativeLayout>
 
@@ -179,5 +178,6 @@
         android:layout_height="100dp"
         android:layout_below="@+id/readx"
         android:layout_toRightOf="@+id/button1"
-        android:background="@drawable/shape_ring_two"/>
+        android:text="layer_list"
+        android:background="@drawable/layerlist_one"/>
 </RelativeLayout>
