@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="match_parent">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="3">
+        android:id="@+id/titleLayout"
+        android:layout_width="100dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/titleImage"
@@ -26,14 +25,14 @@
             android:text="一级分类" />
     </RelativeLayout>
 
-    <GridView
+    <com.example.happy.text.testcopy.MyGridView
         android:id="@+id/grid_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/titleLayout"
         android:background="@color/gray_f5_color"
         android:horizontalSpacing="1dp"
         android:numColumns="3"
         android:verticalSpacing="1dp" />
 
-</LinearLayout>
+</RelativeLayout>
